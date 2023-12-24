@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2023-12-23T18:24:00.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WIU0IVAo6WkIzhfHz0aS" version="22.1.11" type="device">
+  <diagram name="Sayfa -1" id="TTaH17GrbFIlaUWfZyoI">
+    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PrjXMyAzwnRVUWFdbTzS-1" target="PrjXMyAzwnRVUWFdbTzS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-1" value="Giriş" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="10" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PrjXMyAzwnRVUWFdbTzS-2" target="PrjXMyAzwnRVUWFdbTzS-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-2" value="sayi" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PrjXMyAzwnRVUWFdbTzS-3" target="PrjXMyAzwnRVUWFdbTzS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-3" value="fibonacciDizisi = [1,1]&lt;br&gt;n = 1&lt;br&gt;sonraki = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="310" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PrjXMyAzwnRVUWFdbTzS-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-24" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PrjXMyAzwnRVUWFdbTzS-21">
+          <mxGeometry x="-0.699" y="-5" relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-5" value="sayi &amp;gt; sonraki" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157.5" y="420" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-6" value="sonraki = fibonacciDizisi[n-1] + fibonacciDizisi[n]&lt;br&gt;sonraki adlı değişkeni fibonacciDizisi adlı arraye son eleman olarak ekle;&lt;br&gt;n++;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PrjXMyAzwnRVUWFdbTzS-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="510" as="sourcePoint" />
+            <mxPoint x="160" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.388;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PrjXMyAzwnRVUWFdbTzS-5" target="PrjXMyAzwnRVUWFdbTzS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-23" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PrjXMyAzwnRVUWFdbTzS-18">
+          <mxGeometry x="-0.2248" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="PrjXMyAzwnRVUWFdbTzS-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-19" value="fibonacciDizisi" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-20" value="Bitiş" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="530" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PrjXMyAzwnRVUWFdbTzS-25" target="PrjXMyAzwnRVUWFdbTzS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-27" value="HAYIR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PrjXMyAzwnRVUWFdbTzS-26">
+          <mxGeometry x="0.2" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-25" value="sayi &amp;lt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PrjXMyAzwnRVUWFdbTzS-25" target="PrjXMyAzwnRVUWFdbTzS-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="150" as="sourcePoint" />
+            <mxPoint x="120" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PrjXMyAzwnRVUWFdbTzS-29" value="EVET" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PrjXMyAzwnRVUWFdbTzS-28">
+          <mxGeometry x="-0.5388" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
